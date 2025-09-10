@@ -9,28 +9,28 @@ body {
   align-items: center;   
 }
 
-.header{ 
+.header { 
     width: 100%;
     text-align: center;    
 }
 
-.navegacion{
+.navegacion {
     text-align: match-parent;
 }
 
-h1{
+h1 {
     background-color:  #f5f5f5;
     color: rgb(0, 0, 0);
     font-size: 2,5rem;
 }
 
-h2{
+h2 {
     background-color:  #f5f5f5;
     color: rgb(255, 2, 2);
     font-size: 2,5rem;
 }
 
-p{
+p {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -41,7 +41,7 @@ p{
     align-items: center;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
     border-radius: 4px;
@@ -49,10 +49,27 @@ img{
     display: block;
 }
 
-.boton{
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
+nav ul {
+  list-style: none;
+  display: flex;
+  background-color: #333333;
+  padding: 0;
+  margin: 0;
 }
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s ease;  
+}
+
+nav ul li a:hover {
+  background-color: #adadad;
+}
+
