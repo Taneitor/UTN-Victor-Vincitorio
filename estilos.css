@@ -1,0 +1,31 @@
+.boton{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+h2{
+    background-color: #ff00bf;
+    color: navy;
+    font-size: 2,5rem;
+}
+
+p{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 600px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 15px;
+    display: block;
+}
